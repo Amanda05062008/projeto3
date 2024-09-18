@@ -1,0 +1,157 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+
+.chamada {
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.Categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.Categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.Categoria h2 {
+    color: rgb(42, 122, 228);
+}
+
+  .Container_imagem {
+    margin: 1em 0 2em 0;
+  }
+
+  .Container_caixa {
+    margin: 0 6em;
+  }
+
+  .Secundario_imagem {
+    width: 80%;
+  }
+
+   .Secundario {
+       align-items: center;
+       margin: 0 10em;
+   }
+
+   .descricao_titulo {
+       font-weight: 700;
+       font-size: 48px;
+       color: var(--branco-principal);
+       margin-bottom: 0.1em;
+   }
+
+    .descricao_texto {
+        color: var(--cinza-Secundario);
+  } 
+
+  .Secundario_botao {
+      display: inline-block;
+      margin-top: 1em;
+  }
+
+  .Container_descricao {
+    padding: 2em;
+  }
+
+  .dispositivos_lista {
+     display: flex;
+     justify-content: center;
+     lista-style-type: none;
+     margin: 5em 0;
+  }
+
+  .dispositivos {
+      text-align: center;
+  }
+
+  .dispositivos_titulo {
+       font-size: 48px;
+       color: var(--branco-principal);
+  }
+
+  .lista_item {
+      font-Size: 32px;
+      color: var(--branco-principal);
+  }
+
+  .rodape {
+      text-align: center;
+      margin: 5em 3em;
+  }
+
+   .rodape_lista {
+    display: flex;
+    justify-content: center;
+    lista-style-type: none;
+    margin-top: 1em;
+   }
+   
+   .lista_link a{
+      text-decoration: none;
+      color: var(--branco-principal);
+      margin-left: 1em;
+   }
+
+   .rodape_texto {
+    margin: 1em 0;
+    color: var(--cinza-Secundario);
+    font-Size: 14px;
+   }
+
+   .lista_link a:hover {
+       color: var(--botao-azul);
+   }
+
+   .lista_link a:active {
+       color: purple;
+   }
+   
+   .container_botao:hover {
+        background-color: var(--botao-azul-efeito);
+        color:  var(--cor-de-fundo);
+   }
+    
+    
